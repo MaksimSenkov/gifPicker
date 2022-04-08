@@ -192,7 +192,6 @@ class GIFPicker {
         let searchString;
         try {
           searchString = text.trim();
-          // searchString = args[0].target.textContent.trim();
         } catch {
           searchString = this.#currentRequestText;
         }

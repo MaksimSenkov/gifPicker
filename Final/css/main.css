@@ -1,5 +1,3 @@
-/*////////////////////////////////////////////////////////////*/
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
 body {
@@ -54,6 +52,8 @@ body {
   overflow: auto;
 
   scroll-behavior: smooth;
+  scrollbar-color: #dae2ea transparent;
+  scrollbar-width: thin;
 }
 .messages__list:hover::-webkit-scrollbar-thumb {
   background-color: #dae2ea;
